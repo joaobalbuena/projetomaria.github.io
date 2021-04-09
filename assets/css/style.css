@@ -8,6 +8,12 @@ img.nossa-senhora {
     padding: 15px;
     
 }
+
+#container {
+    width: 250 px;
+    background-color: #fff;
+
+}
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -170,8 +176,7 @@ div.rodape  {
 
 .rodape img {
     padding: 2px 10px;
-    border-radius: 18px;
-    width: 30px;
+    width: 40px;
 }
 
 .rodape p {
