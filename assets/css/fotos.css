@@ -1,0 +1,124 @@
+body {
+   
+}
+
+.galeria {
+    width: 100%;
+    background-color: #c4c4fc;
+}
+
+ul#album-fotos {
+    width: 700px;
+    margin:  0 auto;
+    padding: 50px;
+    overflow: hidden;
+    
+
+
+
+}
+
+ul#album-fotos li {
+    display: block;
+    width:  170px;
+    height: 170px;
+    margin: 10px;
+    border: 5px solid #ffffff;
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+    -webkit-transition: all 1s ease-in;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(77, 24, 223);
+    font-size: 9pt;
+    line-height: 310px;
+    padding: 5px;
+}
+
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+
+
+  ul#album-fotos li#foto1 {
+    background-image: url(../img/maria-jose-galeria-500px.jpg);
+    background-position: 50% 50%;
+    background-size: 500px 460px;
+    background-color: #fff;
+       
+}
+
+ul#album-fotos li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 170px 170px;
+}
+
+
+ul#album-fotos li#foto2 {
+    background-image: url(../img/maria-jesusbebe-galeria-500x333px.jpg);
+    background-position: 50% 50%;
+    background-size: 500px 333px;
+    background-color: #fff;
+}
+
+ul#album-fotos li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 170px 170px;
+}
+
+ul#album-fotos li#foto3 {
+    background-image: url(../img/maria-jesus-menino-galeria-500x333px.jpg);
+    background-position: 50% 50%;
+    background-size: 500px 333px;
+    background-color: #fff;
+}
+
+ul#album-fotos li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 170px 170px;
+}
+
+
+ul#album-fotos li#foto4 {
+    background-image: url(../img/maria-galeria-500x270px.jpg);
+    background-position: 50% 50%;
+    background-size: 500px 333px;
+    background-color: #fff;
+}
+
+ul#album-fotos li#foto4:hover {
+    background-position: 0px 0px;
+    background-size: 170px 170px;
+}
+
+
+ul#album-fotos li#foto5 {
+    background-image: url(../img/maria-izabel-galeria-500x333px.jpg);
+    background-position: 50% 50%;
+    background-size: 500px 333px;
+    background-color: #fff;
+}
+
+ul#album-fotos li#foto5:hover {
+    background-position: 0px 0px;
+    background-size: 170px 170px;
+}
+
+ul#album-fotos li#foto6 {
+    background-image: url(../img/maria-jose500x333px.jpg);
+    background-position: 50% 50%;
+    background-size: 500px 333px;
+    background-color: #fff;
+}
+
+ul#album-fotos li#foto6:hover {
+    background-position: 0px 0px;
+    background-size: 170px 170px;
+}
