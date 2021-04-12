@@ -1,10 +1,13 @@
 body {
-   
+   margin: 0;
+   padding: 0;
+   background-color: #fff;
 }
 
 .galeria {
     width: 100%;
     background-color: #c4c4fc;
+    padding: auto;
 }
 
 ul#album-fotos {

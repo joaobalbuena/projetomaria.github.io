@@ -1,6 +1,7 @@
 form {
-    width: 250px;
+    width: 180px;
     margin: auto;
+    padding-right: 50px;
 }
 
 input, textarea  {
